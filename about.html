@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>About</title>
+        <script>
+          function changecolour(value, element){
+            if(value == true){
+              element.style.backgroundColor = "green";
+            } else {
+              element.style.backgroundColor = "red";
+            }
+          }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class = "logo" src = "SVG/logo.svg" alt = "logo">
+                <!--FCH-->
+              </a>
+              <div id = "nav-links">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link " aria-current="page" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="consolelist.html">Console List</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="gettingstarted.html">Get Started</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <main class = "alt-main">
+            <div class = "somepadding dark-container ">
+              <h2>Quick question: Which of these is a Fantasy Console?</h2>
+              <div class = "flexcenter">
+                <button class = "btn sidemargins quizbtn" onclick = "changecolour(false, this)">PlayStation 4</button>
+                <button class = "btn sidemargins quizbtn" onclick = "changecolour(true, this)">Pico-8</button>
+                <button class = "btn sidemargins quizbtn" onclick = "changecolour(false, this)">Xbox One</button>
+                <button class = "btn sidemargins quizbtn" onclick = "changecolour(false, this)">Nintendo Virtual Boy</button>
+              </div>
+            </div>
+            <div class = "centered">
+                <h1>About</h1>
+                <p>Fantasy Console Hub is a place to learn about and share in the joys of building games for machines that don't exist. But wait, you seem a little lost. What is a fantasy console even? Well, a fantasy console is exactly what the name describes it to be; a videogame console that only exists in our fantasies. In practice, it's a piece of software that works a little like an emulator; You run it on your computer or your browser and then it can run games written specifically for the emulated machine. Most fantasy consoles aren't merely emulators, in reality they're usually a development environment, digital audio workstation, graphics editor and distribution platform all in one! And they are very popular for game jams! Often game developers like to challenge themselves and build a little game in something like Pico-8 over the span of a weekend. This is actually how the wildly popular platformer Celeste was born! It started life as a Pico-8 game! And you can make a game for a fantasy console right now! Why not head over to the <a href = "gettingstarted.html"> Getting Started page</a>?</p>
+            </div>
+        </main>
+        <footer class = "centered">Built by Matthew Stevens</footer>
+    </body>
+</html>

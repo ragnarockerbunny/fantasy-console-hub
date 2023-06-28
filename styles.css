@@ -1,0 +1,178 @@
+body{
+    background-color: #07090f;
+}
+
+nav{
+    background-color: #07090f;
+}
+
+footer{
+    background-color: #07090f;
+    color: #FFE0B5;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, p {
+    padding: 16px;
+}
+
+main{
+    min-height: 90vh;
+}
+
+iframe{
+    width:560px;
+    height: 315px;
+}
+
+@media only screen
+and (min-width : 1824px) {
+    h1{
+        font-size: 3vh;
+    }
+    h2{
+        font-size: 2vh;
+    }
+    p{
+        font-size: 1.75vh;
+    }
+}
+
+@media only screen
+and (max-width : 500px) {
+    iframe{
+        width:280px;
+        height: 158px;
+    }
+}
+
+.main-container {
+    /*
+    background-color: #48E5C2;
+    color: #07090f;
+    */
+    background-image: url('https://images.pexels.com/photos/3800795/pexels-photo-3800795.jpeg');
+    background-size: 100vw;
+    background-position: -50%;
+    min-height: 89vh;
+}
+
+.alt-main {
+    background-color:#FFE0B5;
+}
+
+.main-text{
+    color: #FFE0B5;
+    text-shadow: 2px 2px 4px #07090f, 1px 1px 2px #B89C74;
+    backdrop-filter: blur(5px) brightness(60%);
+    width: 100%;
+    height: 100%;
+    min-height:89vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link, .navbar-brand, .navbar-toggler  {
+    color: #ca2e55;
+}
+
+.nav-link:visited, .navbar-brand:visited{
+    color: #ca2e55;
+}
+
+.navbar-toggler-icon:hover {
+    color: #FFFFFF;
+}
+
+.navbar{
+    padding: 6px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    width: 320px;
+}
+
+.brandbg {
+    background-color: #ca2e55;
+}
+
+#btn-getstarted {
+    border-color: #ca2e55;
+    background-color: #ca2e55;
+    margin: 16px;
+}
+
+#btn-getstarted:hover {
+    background-color: #E58785;
+    border-color: #E58785;
+    color: #07090f;
+
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.centered {
+    text-align: center;
+}
+
+.light-container{
+    background-color: #FFE0B5;
+    color: #07090f;
+}
+
+.dark-container{
+    background-color: #07090f;
+    color: #FFE0B5;
+}
+
+.centered-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.centered-list li {
+    list-style-type: none;
+}
+
+.spacer {
+    height: 20vh;
+}
+
+.roundcorner {
+    border-radius: 20px;
+}
+
+.flexcenter {
+    display : flex;
+    justify-content: center;
+}
+
+.somepadding {
+    padding: 20px;
+}
+
+.sidemargins {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quizbtn {
+    color: #07090f;
+    background-color: #ca2e55;
+}
+
+.quizbtn:hover {
+    background-color: #E58785;
+}
